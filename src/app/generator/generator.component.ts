@@ -10,11 +10,11 @@ export class GeneratorComponent implements OnInit {
 
   ngOnInit() {}
 
-  steden: string[] = ['Deventer','Amsterdam'];
+  steden: string[] = ['Tokio','Amsterdam','Berlijn','Brussel','Parijs','Rome','Istanbul','Kopenhagen'];
   deStad: string;
 
   geefStad() {
-   var rand =this.getRandomInt(0,1)
+   var rand =this.getRandomInt(0,7)
    
     this.deStad= this.steden[rand];
 
