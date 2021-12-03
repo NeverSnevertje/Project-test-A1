@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-generator',
+  selector: 'generator-component',
   templateUrl: './generator.component.html',
   styleUrls: ['./generator.component.css']
 })

@@ -4,3 +4,17 @@ body {
 .content{
   height:100vh;
 }
+
+:host
+{
+  color: white;
+}
+
+div.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 2rem;
+  background-color: antiquewhite;
+  color:darkblue;
+}
